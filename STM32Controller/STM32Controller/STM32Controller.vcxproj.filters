@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SettingXML">
+      <UniqueIdentifier>{301182f6-994c-49ac-b7f6-4878f8d07cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SerialCOM">
+      <UniqueIdentifier>{c7c95f36-09c8-4170-a243-86fe72d2f5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MotorController">
+      <UniqueIdentifier>{11aedbe1-0e69-4bea-9017-66ce5b4bba13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="STM32Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32ControllerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingXML\SettingXML.h">
+      <Filter>SettingXML</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialCOM\common.h">
+      <Filter>SerialCOM</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialCOM\SerialCOM.h">
+      <Filter>SerialCOM</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorController\MotorCommon.h">
+      <Filter>MotorController</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorController\STMComunicate.h">
+      <Filter>MotorController</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="STM32Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32ControllerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingXML\SettingXML.cpp">
+      <Filter>SettingXML</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialCOM\SerialCOM.cpp">
+      <Filter>SerialCOM</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorController\STMComunicate.cpp">
+      <Filter>MotorController</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="STM32Controller.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\STM32Controller.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\STM32Controller.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
